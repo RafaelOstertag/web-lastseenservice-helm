@@ -42,7 +42,7 @@ spec:
             - name: SERVER_PORT
               value: "8080"
             - name: DATABASE_URL
-              value: "jdbc:postgresql://172.26.5.195/lastseenservice"
+              value: "jdbc:postgresql://172.26.12.95/lastseenservice"
             - name: DATABASE_USERNAME
               valueFrom:
                 secretKeyRef:
